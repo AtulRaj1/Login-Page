@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/92540fe8da.js" crossorigin="anonymous"></script>
+    <title>Log in </title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('img/beach.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    .container {
+        /* border: 2px solid black; */
+        /* color: azure; */
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+
+    .container h1 {
+        font-size: 40px;
+        border-bottom: 5px solid rgb(99, 99, 231);
+        margin-bottom: 15%;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .box {
+        width: 100%;
+        /* border: 2px solid navy; */
+        border-bottom: 2px solid  rgb(99, 99, 231);
+        /* margin: 25px; */
+    }
+
+    .box input {
+        background: none;
+        width: 80%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: black;
+
+
+        /* border-radius: 20px ; */
+    }
+
+    .box i {
+        width: 25px;
+        text-align: center;
+    }
+
+    .btn {
+        /* color:white ; */
+        cursor: pointer;
+        outline: none;
+        width: 45%;
+        border-radius: 9%;
+        border: 2px solid  navy;
+        margin: 12px;
+        padding: 5px;
+        background: none;
+        font-size: 20px;
+        font-weight: bold;
+        
+        
+    }
+    .btn:hover{
+        text-decoration: solid;
+        /* color: white; */
+        background-color: beige;
+        /* background: white; */
+        opacity: .5;
+
+    }
+}
+</style>
+
+<body>
+    <div class="container">
+        <h1>Sign in</h1>
+        <div class="box">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="box">
+            <i class="fa fa-key"></i>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+        </div>
+        <button class="btn">Sign in</button>
+    </div>
+</body>
+
+</html>
